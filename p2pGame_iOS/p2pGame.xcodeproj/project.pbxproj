@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A988B8C42E4392760059DF0E /* libp2pGameCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A988B8C32E4392760059DF0E /* libp2pGameCore.dylib */; };
+		A988B8C52E43927F0059DF0E /* libp2pGameCore.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A988B8C32E4392760059DF0E /* libp2pGameCore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A988B8702E438AB10059DF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A988B85A2E438AB00059DF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A988B8612E438AB00059DF0E;
+			remoteInfo = p2pGame;
+		};
+		A988B87A2E438AB10059DF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A988B85A2E438AB00059DF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A988B8612E438AB00059DF0E;
+			remoteInfo = p2pGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A988B89D2E438B380059DF0E /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A988B8C52E43927F0059DF0E /* libp2pGameCore.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A988B8622E438AB00059DF0E /* p2pGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = p2pGame.app; path = "/Users/whitelau/project/p2pGame/p2pGame_iOS/build/Debug-iphoneos/p2pGame.app"; sourceTree = "<absolute>"; };
+		A988B86F2E438AB10059DF0E /* p2pGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = p2pGameTests.xctest; path = "/Users/whitelau/project/p2pGame/p2pGame_iOS/build/Debug-iphoneos/p2pGame.app/PlugIns/p2pGameTests.xctest"; sourceTree = "<absolute>"; };
+		A988B8792E438AB10059DF0E /* p2pGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = p2pGameUITests.xctest; path = "/Users/whitelau/project/p2pGame/p2pGame_iOS/build/Debug-iphoneos/p2pGameUITests-Runner.app/PlugIns/p2pGameUITests.xctest"; sourceTree = "<absolute>"; };
+		A988B89B2E438B320059DF0E /* p2pGameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p2pGameCore.h; sourceTree = "<group>"; };
+		A988B8B42E438D640059DF0E /* p2pGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "p2pGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		A988B8C32E4392760059DF0E /* libp2pGameCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libp2pGameCore.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A988B8642E438AB00059DF0E /* p2pGame */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = p2pGame;
+			sourceTree = "<group>";
+		};
+		A988B8722E438AB10059DF0E /* p2pGameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = p2pGameTests;
+			sourceTree = "<group>";
+		};
+		A988B87C2E438AB10059DF0E /* p2pGameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = p2pGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A988B85F2E438AB00059DF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A988B8C42E4392760059DF0E /* libp2pGameCore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B86C2E438AB10059DF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B8762E438AB10059DF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A988B8592E438AB00059DF0E = {
+			isa = PBXGroup;
+			children = (
+				A988B8642E438AB00059DF0E /* p2pGame */,
+				A988B8722E438AB10059DF0E /* p2pGameTests */,
+				A988B87C2E438AB10059DF0E /* p2pGameUITests */,
+				A988B8B42E438D640059DF0E /* p2pGame-Bridging-Header.h */,
+				A988B89B2E438B320059DF0E /* p2pGameCore.h */,
+				A988B8BF2E4391DC0059DF0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A988B8BF2E4391DC0059DF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A988B8C32E4392760059DF0E /* libp2pGameCore.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A988B8612E438AB00059DF0E /* p2pGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A988B8832E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGame" */;
+			buildPhases = (
+				A988B85E2E438AB00059DF0E /* Sources */,
+				A988B85F2E438AB00059DF0E /* Frameworks */,
+				A988B8602E438AB00059DF0E /* Resources */,
+				A988B89D2E438B380059DF0E /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A988B8642E438AB00059DF0E /* p2pGame */,
+			);
+			name = p2pGame;
+			packageProductDependencies = (
+			);
+			productName = p2pGame;
+			productReference = A988B8622E438AB00059DF0E /* p2pGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A988B86E2E438AB10059DF0E /* p2pGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A988B8862E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGameTests" */;
+			buildPhases = (
+				A988B86B2E438AB10059DF0E /* Sources */,
+				A988B86C2E438AB10059DF0E /* Frameworks */,
+				A988B86D2E438AB10059DF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A988B8712E438AB10059DF0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A988B8722E438AB10059DF0E /* p2pGameTests */,
+			);
+			name = p2pGameTests;
+			packageProductDependencies = (
+			);
+			productName = p2pGameTests;
+			productReference = A988B86F2E438AB10059DF0E /* p2pGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A988B8782E438AB10059DF0E /* p2pGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A988B8892E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGameUITests" */;
+			buildPhases = (
+				A988B8752E438AB10059DF0E /* Sources */,
+				A988B8762E438AB10059DF0E /* Frameworks */,
+				A988B8772E438AB10059DF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A988B87B2E438AB10059DF0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A988B87C2E438AB10059DF0E /* p2pGameUITests */,
+			);
+			name = p2pGameUITests;
+			packageProductDependencies = (
+			);
+			productName = p2pGameUITests;
+			productReference = A988B8792E438AB10059DF0E /* p2pGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A988B85A2E438AB00059DF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A988B8612E438AB00059DF0E = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					A988B86E2E438AB10059DF0E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A988B8612E438AB00059DF0E;
+					};
+					A988B8782E438AB10059DF0E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A988B8612E438AB00059DF0E;
+					};
+				};
+			};
+			buildConfigurationList = A988B85D2E438AB00059DF0E /* Build configuration list for PBXProject "p2pGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A988B8592E438AB00059DF0E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A988B8592E438AB00059DF0E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A988B8612E438AB00059DF0E /* p2pGame */,
+				A988B86E2E438AB10059DF0E /* p2pGameTests */,
+				A988B8782E438AB10059DF0E /* p2pGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A988B8602E438AB00059DF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B86D2E438AB10059DF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B8772E438AB10059DF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A988B85E2E438AB00059DF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B86B2E438AB10059DF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A988B8752E438AB10059DF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A988B8712E438AB10059DF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A988B8612E438AB00059DF0E /* p2pGame */;
+			targetProxy = A988B8702E438AB10059DF0E /* PBXContainerItemProxy */;
+		};
+		A988B87B2E438AB10059DF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A988B8612E438AB00059DF0E /* p2pGame */;
+			targetProxy = A988B87A2E438AB10059DF0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A988B8812E438AB10059DF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A988B8822E438AB10059DF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A988B8842E438AB10059DF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "p2pGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A988B8852E438AB10059DF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "p2pGame-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A988B8872E438AB10059DF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/p2pGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/p2pGame";
+			};
+			name = Debug;
+		};
+		A988B8882E438AB10059DF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/p2pGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/p2pGame";
+			};
+			name = Release;
+		};
+		A988B88A2E438AB10059DF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = p2pGame;
+			};
+			name = Debug;
+		};
+		A988B88B2E438AB10059DF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.p2pGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = p2pGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A988B85D2E438AB00059DF0E /* Build configuration list for PBXProject "p2pGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A988B8812E438AB10059DF0E /* Debug */,
+				A988B8822E438AB10059DF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A988B8832E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A988B8842E438AB10059DF0E /* Debug */,
+				A988B8852E438AB10059DF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A988B8862E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A988B8872E438AB10059DF0E /* Debug */,
+				A988B8882E438AB10059DF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A988B8892E438AB10059DF0E /* Build configuration list for PBXNativeTarget "p2pGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A988B88A2E438AB10059DF0E /* Debug */,
+				A988B88B2E438AB10059DF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A988B85A2E438AB00059DF0E /* Project object */;
+}
