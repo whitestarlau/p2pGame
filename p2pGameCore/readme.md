@@ -45,3 +45,8 @@ lipo -create -output universal_lib.a x86_64_lib.a aarch64_lib.a
 cbindgen --config cbindgen.toml --output p2pGameCore.h
 cbindgen --config cbindgen.toml --crate p2pGameCore --output p2pGameCore.h
 ```
+
+单元测试：
+```
+cargo test test_run_p2p_game -- --nocapture
+```
